@@ -36,7 +36,7 @@ body {
 .m-img:hover{
     box-shadow: 0px 0px 40px 50px rgb(5 12 23 / 32%);
     transform: scale(1.19);
-    transition: transform 200ms;
+    transition: transform 500ms;
 }
 
 h2{
