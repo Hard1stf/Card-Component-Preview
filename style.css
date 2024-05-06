@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(13, 25, 43);
+    /* Font size (paragraph): 18px */
+    height: 100vh;
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+}
+
+.card {
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    background-color: rgb(20, 37, 61);
+    height: 611px;
+    width: 358px;
+    padding: 25px;
+    box-shadow: 0px 0px 20px 13px rgb(5 12 23 / 32%);
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 0px 0px 90px 80px rgba(0, 0, 0, 0.32);
+    transition: box-shadow 600ms;
+}
+
+.m-img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.m-img:hover{
+    box-shadow: 0px 0px 40px 50px rgb(5 12 23 / 32%);
+    transform: scale(1.19);
+    transition: transform 200ms;
+}
+
+h2{
+    /* text-align: left; */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.para{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.num{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 18px;
+    display: inline;
+}
+
+.day{
+    display: inline;
+}
+
+.line{
+    background-color: hsl(215, 32%, 27%);
+    height: 2px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.avatar{
+    display: inline;
+    float: left;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: -10px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.t-color{
+    color: hsl(215, 51%, 70%);
+}
+
+span{
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.icon1{
+    float: left;
+    margin-right: 7px;
+}
+
+.icon2{
+    float: left;
+    margin-right: 7px;
+}
+
+.left{
+    float: left;
+    margin-bottom: 20px;
+}
+.right{
+    float: right;
+    margin-bottom: 20px;
+}
+
+.last{
+    clear: both;
+}
